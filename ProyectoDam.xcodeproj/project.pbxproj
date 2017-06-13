@@ -13,6 +13,15 @@
 		3308F1831E9375EB008F95A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3308F1821E9375EB008F95A4 /* Assets.xcassets */; };
 		3308F1861E9375EB008F95A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3308F1841E9375EB008F95A4 /* LaunchScreen.storyboard */; };
 		3308F1911E9375ED008F95A4 /* ProyectoDamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3308F1901E9375ED008F95A4 /* ProyectoDamTests.swift */; };
+		3308F19E1E937C25008F95A4 /* VideojuegosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3308F19D1E937C25008F95A4 /* VideojuegosTableViewController.swift */; };
+		3308F1A41E937E58008F95A4 /* Videojuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3308F1A31E937E58008F95A4 /* Videojuego.swift */; };
+		3308F1A71E937F24008F95A4 /* EJemplosd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3308F1A61E937F24008F95A4 /* EJemplosd.swift */; };
+		3308F1AB1E93860A008F95A4 /* DetallesVideojuegos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3308F1AA1E93860A008F95A4 /* DetallesVideojuegos.swift */; };
+		3308F1AD1E938F1C008F95A4 /* VideojuegoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3308F1AC1E938F1C008F95A4 /* VideojuegoCell.swift */; };
+		334B85EA1EB87C84000F5A69 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334B85E91EB87C84000F5A69 /* Util.swift */; };
+		334B85EC1EB87CBA000F5A69 /* Cliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334B85EB1EB87CBA000F5A69 /* Cliente.swift */; };
+		334B85EE1EB87CD9000F5A69 /* ResponseReceived.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334B85ED1EB87CD9000F5A69 /* ResponseReceived.swift */; };
+		338EED3E1EAF483E00CE44C9 /* VidejouegoCrear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338EED3D1EAF483E00CE44C9 /* VidejouegoCrear.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 		3308F18C1E9375ED008F95A4 /* ProyectoDamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoDamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3308F1901E9375ED008F95A4 /* ProyectoDamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoDamTests.swift; sourceTree = "<group>"; };
 		3308F1921E9375ED008F95A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3308F19D1E937C25008F95A4 /* VideojuegosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideojuegosTableViewController.swift; sourceTree = "<group>"; };
+		3308F1A31E937E58008F95A4 /* Videojuego.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videojuego.swift; sourceTree = "<group>"; };
+		3308F1A61E937F24008F95A4 /* EJemplosd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EJemplosd.swift; sourceTree = "<group>"; };
+		3308F1AA1E93860A008F95A4 /* DetallesVideojuegos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetallesVideojuegos.swift; sourceTree = "<group>"; };
+		3308F1AC1E938F1C008F95A4 /* VideojuegoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideojuegoCell.swift; sourceTree = "<group>"; };
+		334B85E91EB87C84000F5A69 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		334B85EB1EB87CBA000F5A69 /* Cliente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cliente.swift; sourceTree = "<group>"; };
+		334B85ED1EB87CD9000F5A69 /* ResponseReceived.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseReceived.swift; sourceTree = "<group>"; };
+		338EED3D1EAF483E00CE44C9 /* VidejouegoCrear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VidejouegoCrear.swift; path = ../VidejouegoCrear.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +95,19 @@
 		3308F17A1E9375EB008F95A4 /* ProyectoDam */ = {
 			isa = PBXGroup;
 			children = (
+				334B85E81EB87C69000F5A69 /* rest */,
+				3308F1A51E937EFC008F95A4 /* Clases */,
+				3308F1A61E937F24008F95A4 /* EJemplosd.swift */,
 				3308F17B1E9375EB008F95A4 /* AppDelegate.swift */,
 				3308F17D1E9375EB008F95A4 /* ViewController.swift */,
 				3308F17F1E9375EB008F95A4 /* Main.storyboard */,
 				3308F1821E9375EB008F95A4 /* Assets.xcassets */,
 				3308F1841E9375EB008F95A4 /* LaunchScreen.storyboard */,
 				3308F1871E9375EB008F95A4 /* Info.plist */,
+				3308F19D1E937C25008F95A4 /* VideojuegosTableViewController.swift */,
+				3308F1AA1E93860A008F95A4 /* DetallesVideojuegos.swift */,
+				338EED3D1EAF483E00CE44C9 /* VidejouegoCrear.swift */,
+				3308F1AC1E938F1C008F95A4 /* VideojuegoCell.swift */,
 			);
 			path = ProyectoDam;
 			sourceTree = "<group>";
@@ -94,6 +119,24 @@
 				3308F1921E9375ED008F95A4 /* Info.plist */,
 			);
 			path = ProyectoDamTests;
+			sourceTree = "<group>";
+		};
+		3308F1A51E937EFC008F95A4 /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				3308F1A31E937E58008F95A4 /* Videojuego.swift */,
+			);
+			name = Clases;
+			sourceTree = "<group>";
+		};
+		334B85E81EB87C69000F5A69 /* rest */ = {
+			isa = PBXGroup;
+			children = (
+				334B85E91EB87C84000F5A69 /* Util.swift */,
+				334B85EB1EB87CBA000F5A69 /* Cliente.swift */,
+				334B85ED1EB87CD9000F5A69 /* ResponseReceived.swift */,
+			);
+			name = rest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +243,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3308F17E1E9375EB008F95A4 /* ViewController.swift in Sources */,
+				334B85EA1EB87C84000F5A69 /* Util.swift in Sources */,
+				3308F1AD1E938F1C008F95A4 /* VideojuegoCell.swift in Sources */,
 				3308F17C1E9375EB008F95A4 /* AppDelegate.swift in Sources */,
+				334B85EC1EB87CBA000F5A69 /* Cliente.swift in Sources */,
+				334B85EE1EB87CD9000F5A69 /* ResponseReceived.swift in Sources */,
+				3308F1A41E937E58008F95A4 /* Videojuego.swift in Sources */,
+				3308F1AB1E93860A008F95A4 /* DetallesVideojuegos.swift in Sources */,
+				3308F19E1E937C25008F95A4 /* VideojuegosTableViewController.swift in Sources */,
+				338EED3E1EAF483E00CE44C9 /* VidejouegoCrear.swift in Sources */,
+				3308F1A71E937F24008F95A4 /* EJemplosd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +460,7 @@
 				3308F1971E9375ED008F95A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3308F1981E9375ED008F95A4 /* Build configuration list for PBXNativeTarget "ProyectoDamTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +469,7 @@
 				3308F19A1E9375ED008F95A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
